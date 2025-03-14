@@ -1,0 +1,128 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Project specific
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+app-example
+
+# OSX
+.DS_Store
+
+# Xcode
+CivicHelp/ios/build/
+CivicHelp/ios/*.pbxuser
+!CivicHelp/ios/default.pbxuser
+CivicHelp/ios/*.mode1v3
+!CivicHelp/ios/default.mode1v3
+CivicHelp/ios/*.mode2v3
+!CivicHelp/ios/default.mode2v3
+CivicHelp/ios/*.perspectivev3
+!CivicHelp/ios/default.perspectivev3
+CivicHelp/ios/xcuserdata
+CivicHelp/ios/*.xccheckout
+CivicHelp/ios/*.moved-aside
+CivicHelp/ios/DerivedData
+CivicHelp/ios/*.hmap
+CivicHelp/ios/*.ipa
+CivicHelp/ios/*.xcuserstate
+CivicHelp/ios/.xcode.env.local
+
+# Android/IntelliJ
+CivicHelp/android/build/
+CivicHelp/android/.idea
+CivicHelp/android/.gradle
+CivicHelp/android/local.properties
+CivicHelp/android/*.iml
+CivicHelp/android/*.hprof
+CivicHelp/android/.cxx/
+CivicHelp/android/*.keystore
+!CivicHelp/android/debug.keystore
+
+# node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# fastlane
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+# Ruby / CocoaPods
+/ios/Pods/
+/vendor/bundle/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
